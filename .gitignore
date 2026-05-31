@@ -1,0 +1,33 @@
+# IDE / System files
+.DS_Store
+
+# Python environment and cache
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+ai-agent/.env
+ai-agent/.env.*
+!ai-agent/.env.example
+
+# SSH Private Keys
+*.pem
+terraform/*.pem
+
+# Terraform files and state
+.terraform/
+terraform/.terraform/
+*.tfstate
+*.tfstate.*
+terraform/*.tfstate
+terraform/*.tfstate.*
+terraform/terraform.tfvars
